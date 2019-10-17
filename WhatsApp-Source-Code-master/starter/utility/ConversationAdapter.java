@@ -8,8 +8,6 @@ import android.widget.ArrayAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
-
-
 public class ConversationAdapter extends ArrayAdapter {
     private ArrayList<String> messages;
     private Context mContext;
@@ -19,7 +17,5 @@ public class ConversationAdapter extends ArrayAdapter {
         this.messages = messages;
         this.mContext = context;
     }
-
-
 
 }
